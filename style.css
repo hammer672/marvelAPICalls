@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+article {
+    margin: 5px;
+    height: 200px;
+    overflow: hidden;
+    border: 1px solid #d4d7d9;
+    box-shadow: 0 1px 0 #c5cad8, 0 2px 3px #d4d8e3;
+    display: flex;
+    flex-flow: row nowrap;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 5px;
+}
+
+.container .item {
+    flex: 1 1 400px;
+}
+
+.itemContent {
+    flex: 1 1;
+    padding: 0.5rem 1rem;
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.itemImg {
+    flex: 0 1 33%;
+    position: relative;
+    background-image: url(default.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    background: #F11E22;
+    height: 60px;
+}
+
+.header-wrapper {
+    flex: 0;
+    position: relative;
+    flex-basis: 400px;
+    height: 60px;
+}
+
+.header-logo {
+    height: 60px;
+    margin: 0 1rem;
+}
+
+.search-input {
+    border: 0;
+    border-bottom: 2px solid rgba(255,255,255,0.6);
+    color: rgba(255,255,255,0.8);
+    height: 36px;
+    margin-top: 12px;
+    display: block;
+    font-size: 1rem;
+    width: 400px;
+    transition: width 0.3s ease;
+    background-color: transparent;
+    background-image: url(./img/svg-icons/search-icon.svg);
+    background-repeat: no-repeat;
+    background-position: right 0px;
+    background-size: 36px;
+}
+
+input {
+    appearance: none;
+}
+
+input[type="text" i] {
+    padding: 1px 2px;
+}
+
+a {
+    color: #0063C3;
+    text-decoration: none;
+}
+
