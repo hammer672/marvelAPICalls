@@ -10,7 +10,7 @@ article {
     height: 200px;
     overflow: hidden;
     border: 1px solid #d4d7d9;
-    box-shadow: 0 1px 0 #c5cad8, 0 2px 3px #d4d8e3;
+    /* box-shadow: 0 1px 0 #c5cad8, 0 2px 3px #d4d8e3; */
     display: flex;
     flex-flow: row nowrap;
     cursor: pointer;

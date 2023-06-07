@@ -22,19 +22,19 @@ interface Image {
     extension?: string
 }
 
-interface CharacterDataContainer {
+interface DataContainer<T> {
     offset?: number
     limit?: number
     total?: number
     count?: number
-    results?: Character[]
+    results?: T
 }
 
-export interface CharacterDataWrapper {
+export interface DataWrapper<TARTEMPION> {
     code?: number
     status?: string
     copyright?: string
-    data?: CharacterDataContainer
+    data?: DataContainer<TARTEMPION>
     attributionHTML?: string
     attributionText?: string
     etag?: string
